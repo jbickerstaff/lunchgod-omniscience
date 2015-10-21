@@ -1,8 +1,8 @@
 
-module.exports =
-{
-    "ping": function()
+module.exports = 
     {
-        console.log("I AM AWAKE");
-    }
-};
+        "ping": function(response)
+        {
+            return "I AM AWAKE";
+        }
+    };
