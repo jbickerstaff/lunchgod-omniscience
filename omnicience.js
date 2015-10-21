@@ -1,2 +1,8 @@
-console.log("i am awake");
 
+module.exports =
+{
+    "ping": function()
+    {
+        console.log("I AM AWAKE");
+    }
+};
